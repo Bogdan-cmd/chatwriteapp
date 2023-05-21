@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load bootstrap4 %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="container">
+  <h1>Înregistrează-te acum!</h1>
+
+
+  </script>
+  <form method="POST">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <input type="submit" class="btn btn-primary" value="Înregistrează-te!">
+  </form>
+
+</div>
+
+{% endblock  %}
