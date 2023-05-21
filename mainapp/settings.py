@@ -28,7 +28,7 @@ SECRET_KEY = 'l9cs(7arss41869qy)l+l*n6typh-=u)b9$5!j%vf+^rvmv$z9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['chatnwrite-cli.herokuapp.com','127.0.0.1', 'localhost', '0.0.0.0']
+ALLOWED_HOSTS = ['writenchat.herokuapp.com','127.0.0.1', 'localhost', '0.0.0.0']
 
 
 # Application definition
