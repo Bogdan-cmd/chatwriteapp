@@ -28,7 +28,8 @@ SECRET_KEY = 'l9cs(7arss41869qy)l+l*n6typh-=u)b9$5!j%vf+^rvmv$z9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['writenchat.herokuapp.com','127.0.0.1', 'localhost', '0.0.0.0']
+#ALLOWED_HOSTS = ['writenchat.herokuapp.com','127.0.0.1', 'localhost', '0.0.0.0']
+ALLOWED_HOSTS = ['writenchat.herokuapp.com']
 
 
 # Application definition
@@ -98,11 +99,12 @@ DATABASES = {
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME':'d7qsihu64a0fnf',
-        'USER': 'usblntdrvdtfgy',
-        'PASSWORD': '70d6ec80e3aada9dde66422aa2f3fb7d9676c9199dce227261930d4519618ed8',
+        'USER': 'xuipevvarweyrj',
+        'PASSWORD': '98ee78de5bebf8b80d134dd76a69874f4e6207061db6c3603481e1e35e0c4739',
         'HOST': 'ec2-54-145-174-66.compute-1.amazonaws.com',
         'PORT':  5432
     }
+
 }
 
 #DATABASE_URL = os.environ['DATABASE_URL']
