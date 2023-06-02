@@ -102,7 +102,8 @@ DATABASES = {
         'USER': 'xuipevvarweyrj',
         'PASSWORD': '98ee78de5bebf8b80d134dd76a69874f4e6207061db6c3603481e1e35e0c4739',
         'HOST': 'ec2-54-145-174-66.compute-1.amazonaws.com',
-        'PORT':  5432
+        'PORT':  5432,
+        'OPTIONS': {'sslmode': 'require'},
     }
 
 }
